@@ -1,0 +1,43 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "Casks/**"
+      - ".github/workflows/ci.yml"
+  pull_request:
+    paths:
+      - "Casks/**"
+      - ".github/workflows/ci.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+defaults:
+  run:
+    shell: bash -xeuo pipefail {0}
+
+jobs:
+  audit:
+    runs-on: macos-latest
+    steps:
+      - name: Set up Homebrew
+        uses: Homebrew/actions/setup-homebrew@4790763c0a3ba4036f72634dc079c4a7dfcd4878 # 2026.10.19.1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Homebrew 6.0.0+ only loads non-official taps that have been trusted.
+      - name: Trust this tap
+        run: brew trust "${GITHUB_REPOSITORY}" || true
+
+      - name: Style
+        run: brew style Casks
+
+      - name: Audit
+        run: brew audit --cask --online --strict --tap="${GITHUB_REPOSITORY}"
+
+      - name: Livecheck
+        run: brew livecheck --cask --tap="${GITHUB_REPOSITORY}"

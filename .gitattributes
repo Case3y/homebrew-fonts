@@ -1,0 +1,7 @@
+# Normalise line endings: store LF in the repository and in the working tree.
+# Homebrew's RuboCop config (Layout/EndOfLine) expects LF, and CI runs on macOS/Linux.
+* text=auto eol=lf
+
+*.rb   text eol=lf
+*.yml  text eol=lf
+*.md   text eol=lf
