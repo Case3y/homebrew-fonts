@@ -1,6 +1,6 @@
 cask "font-sleet-mono" do
-  version "1.100"
-  sha256 "53534917b8158c12d884fb7754322337b81c9043ac235d55cafdf90efa065bf5"
+  version "1.101"
+  sha256 "3c81e0797adbd20b8ada333ac5448aed08d37373a3a8ea1b525df32e6505a8fa"
 
   url "https://github.com/Case3y/sleet-mono/releases/download/v#{version}/SleetMono.zip"
   name "Sleet Mono"

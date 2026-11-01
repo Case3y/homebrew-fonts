@@ -1,6 +1,6 @@
 cask "font-sleet-mono-nerd-font" do
-  version "1.100"
-  sha256 "13b10a12b544d172d10e3d835001de65590a83d1b474b50b50aa725024137bde"
+  version "1.101"
+  sha256 "af4e8596edd042390e8ba962260d8ef7e9bb7779d1723ef0bddd724d049e967c"
 
   url "https://github.com/Case3y/sleet-mono/releases/download/v#{version}/SleetMono-NerdFonts.zip"
   name "Sleet Mono Nerd Font"
