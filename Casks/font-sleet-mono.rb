@@ -12,10 +12,10 @@ cask "font-sleet-mono" do
     strategy :github_latest
   end
 
-  font "SleetMono/SleetMono-Regular.ttf"
-  font "SleetMono/SleetMono-Italic.ttf"
   font "SleetMono/SleetMono-Bold.ttf"
   font "SleetMono/SleetMono-BoldItalic.ttf"
+  font "SleetMono/SleetMono-Italic.ttf"
+  font "SleetMono/SleetMono-Regular.ttf"
 
   zap :not_required
 end

@@ -12,18 +12,18 @@ cask "font-sleet-mono-nerd-font" do
     strategy :github_latest
   end
 
-  font "SleetMono-NerdFonts/SleetMonoNerdFont-Regular.ttf"
-  font "SleetMono-NerdFonts/SleetMonoNerdFontMono-Regular.ttf"
-  font "SleetMono-NerdFonts/SleetMonoNerdFontPropo-Regular.ttf"
-  font "SleetMono-NerdFonts/SleetMonoNerdFont-Italic.ttf"
-  font "SleetMono-NerdFonts/SleetMonoNerdFontMono-Italic.ttf"
-  font "SleetMono-NerdFonts/SleetMonoNerdFontPropo-Italic.ttf"
   font "SleetMono-NerdFonts/SleetMonoNerdFont-Bold.ttf"
-  font "SleetMono-NerdFonts/SleetMonoNerdFontMono-Bold.ttf"
-  font "SleetMono-NerdFonts/SleetMonoNerdFontPropo-Bold.ttf"
   font "SleetMono-NerdFonts/SleetMonoNerdFont-BoldItalic.ttf"
+  font "SleetMono-NerdFonts/SleetMonoNerdFont-Italic.ttf"
+  font "SleetMono-NerdFonts/SleetMonoNerdFont-Regular.ttf"
+  font "SleetMono-NerdFonts/SleetMonoNerdFontMono-Bold.ttf"
   font "SleetMono-NerdFonts/SleetMonoNerdFontMono-BoldItalic.ttf"
+  font "SleetMono-NerdFonts/SleetMonoNerdFontMono-Italic.ttf"
+  font "SleetMono-NerdFonts/SleetMonoNerdFontMono-Regular.ttf"
+  font "SleetMono-NerdFonts/SleetMonoNerdFontPropo-Bold.ttf"
   font "SleetMono-NerdFonts/SleetMonoNerdFontPropo-BoldItalic.ttf"
+  font "SleetMono-NerdFonts/SleetMonoNerdFontPropo-Italic.ttf"
+  font "SleetMono-NerdFonts/SleetMonoNerdFontPropo-Regular.ttf"
 
   zap :not_required
 end
