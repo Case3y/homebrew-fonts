@@ -1,6 +1,6 @@
 cask "font-sleet-mono" do
-  version "1.00"
-  sha256 "e9063e918c76337900f0bb0ccc0ad94e4228988cc356ea52c2f651c6f4210842"
+  version "1.100"
+  sha256 "53534917b8158c12d884fb7754322337b81c9043ac235d55cafdf90efa065bf5"
 
   url "https://github.com/Case3y/sleet-mono/releases/download/v#{version}/SleetMono.zip"
   name "Sleet Mono"
@@ -13,6 +13,9 @@ cask "font-sleet-mono" do
   end
 
   font "SleetMono/SleetMono-Regular.ttf"
+  font "SleetMono/SleetMono-Italic.ttf"
+  font "SleetMono/SleetMono-Bold.ttf"
+  font "SleetMono/SleetMono-BoldItalic.ttf"
 
   zap :not_required
 end

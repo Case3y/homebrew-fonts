@@ -1,6 +1,6 @@
 cask "font-sleet-mono-nerd-font" do
-  version "1.00"
-  sha256 "c1708481b607d28fc4d1d8c14eac93a3ae213852e7b5140a4d397260b7144253"
+  version "1.100"
+  sha256 "13b10a12b544d172d10e3d835001de65590a83d1b474b50b50aa725024137bde"
 
   url "https://github.com/Case3y/sleet-mono/releases/download/v#{version}/SleetMono-NerdFonts.zip"
   name "Sleet Mono Nerd Font"
@@ -15,6 +15,15 @@ cask "font-sleet-mono-nerd-font" do
   font "SleetMono-NerdFonts/SleetMonoNerdFont-Regular.ttf"
   font "SleetMono-NerdFonts/SleetMonoNerdFontMono-Regular.ttf"
   font "SleetMono-NerdFonts/SleetMonoNerdFontPropo-Regular.ttf"
+  font "SleetMono-NerdFonts/SleetMonoNerdFont-Italic.ttf"
+  font "SleetMono-NerdFonts/SleetMonoNerdFontMono-Italic.ttf"
+  font "SleetMono-NerdFonts/SleetMonoNerdFontPropo-Italic.ttf"
+  font "SleetMono-NerdFonts/SleetMonoNerdFont-Bold.ttf"
+  font "SleetMono-NerdFonts/SleetMonoNerdFontMono-Bold.ttf"
+  font "SleetMono-NerdFonts/SleetMonoNerdFontPropo-Bold.ttf"
+  font "SleetMono-NerdFonts/SleetMonoNerdFont-BoldItalic.ttf"
+  font "SleetMono-NerdFonts/SleetMonoNerdFontMono-BoldItalic.ttf"
+  font "SleetMono-NerdFonts/SleetMonoNerdFontPropo-BoldItalic.ttf"
 
   zap :not_required
 end
